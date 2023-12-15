@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url("./reset.scss");
+
+#root {
+    background-color: #f8f8f8;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+}
+input,
+select,
+textarea {
+    font-family: "Montserrat", sans-serif;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #6a994e;
+    border-radius: 5px;
+}
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #6a994e rgba(1, 1, 1, 0);
+}
+
+.disableLogic {
+    cursor: not-allowed !important;
+    pointer-events: none !important;
+}
+* {
+    box-sizing: border-box;
+}
+input[type="checkbox"] {
+    accent-color: #6a994e;
+}
